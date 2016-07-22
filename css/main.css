@@ -32,8 +32,8 @@ h2{
   font-size: 20px;
 }
 
-h3{
-  font-size: 16px;
+h3.recent-work-inner{
+  font-size: 20px;
   color: #787878;
   font-weight: 400;
   line-height: 24px;
@@ -56,8 +56,19 @@ a:hover, a:focus {
 }
 
 hr {
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #fff;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+}
+
+.hr-thin{
+  display: block;
+    margin: 0.5em;
+    border-style: dotted;
+    border-width: 1px;
 }
 
 
@@ -1004,19 +1015,19 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
-.about-us {
+#about-us {
   margin-top: 110px;
   margin-bottom: -110px;
 }
 
-.about-us h2, 
+#about-us h2, 
 .skill_text h2 {
   color:#4e4e4e;
   font-size: 30px;
   font-weight: 600;
 }
 
-.about-us p {
+#about-us p {
   color:#4e4e4e;
 }
 
@@ -1172,6 +1183,10 @@ a.accordion-toggle  i{
 
 .team h5 {
   font-weight: 300;
+}
+
+#mentor-color-bar{
+  padding-left:50px;
 }
 
 .single-profile-top, 
@@ -2332,6 +2347,11 @@ ul.sidebar-gallery {
   display:inherit;
 }
 
+.media-body{
+  display:inherit;
+  text-align:left;
+}
+
 .comment_section .media-body{
   display:inherit;
 }
@@ -2523,6 +2543,18 @@ shortcodes page css
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+.small-text{
+  font-size:12px;
+}
+
+.profile-title{
+  font-size:15px;
+  font-weight:bold;
+}
+.about-us-icons{
+  margin:90px;
 }
 
 
