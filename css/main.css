@@ -2547,6 +2547,8 @@ shortcodes page css
 
 .small-text{
   font-size:12px;
+  text-align: justify;
+    text-justify: inter-word;
 }
 
 .profile-title{
