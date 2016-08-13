@@ -959,6 +959,14 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
+.partner-list li{
+  list-style-type: none;
+}
+
+.partner-list ul li{
+  display: inline;
+}
+
 #partner {
   background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
@@ -2557,6 +2565,16 @@ shortcodes page css
 }
 .about-us-icons{
   margin:90px;
+}
+
+.big-text-bold{
+  font-size:30px;
+  font-weight:bold;
+  text-align: center;
+}
+.med-text{
+  font-size:20px;
+  text-align: center;
 }
 
 
