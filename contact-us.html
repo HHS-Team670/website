@@ -141,7 +141,7 @@
                         <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
                          </div>
                          <div class="col-xs-3 col-sm-2 .col-md-4">
-                        <input type="submit" value="Submit" class="btn btn-primary btn-lg" >
+                        <input type="submit" value="submit" class="btn btn-primary btn-lg" >
                         </div>
                         <?php
                         $errors = '';
@@ -175,20 +175,17 @@
                         //redirect to the 'thank you' page
                         header('Location: contact-form-thank-you.html');
                         }
-                        <?php
+                        $recipient="team670@homesteadrobotics.com"; //Enter your mail address
+                        $subject="Contact from Website"; //Subject 
+                        $sender=$_POST["name"];
+                        $senderEmail=$_POST["email"];
+                        $message=$_POST["message"];
+                        $mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
+                        
                         if($_POST["submit"]) {
-                            $recipient="team670@homesteadrobotics.com"; //Enter your mail address
-                            $subject="Contact from Website"; //Subject 
-                            $sender=$_POST["name"];
-                            $senderEmail=$_POST["email"];
-                            $message=$_POST["comments"];
-                            $mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
                             mail($recipient, $subject, $mailBody);
-                        	sleep(1);
-                        	header("Location:http://blog.antonyraphel.in/sample/"); // Set here redirect page or destination page
                         }
                         ?>
-                        >
                 </form>   
                 
             </div><!--/.row-->
