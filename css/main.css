@@ -2558,6 +2558,12 @@ shortcodes page css
     text-justify: inter-word;
 }
 
+.smallest-text{
+  font-size:7px;
+  text-align: justify;
+    text-justify: inter-word;
+}
+
 .profile-title{
   font-size:15px;
   font-weight:bold;
