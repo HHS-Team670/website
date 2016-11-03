@@ -203,6 +203,16 @@ body > section {
   color: #fff;
 }
 
+header ul.nav {
+    width:100%;
+    margin:0 auto;
+    margin-top:15px;
+    font-size: 13px;
+    list-style:none;
+    text-align:center;
+    font-weight:bold;
+}
+
 .top-number p{
   margin: 0
 }
