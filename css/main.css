@@ -116,6 +116,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
+
 .media>.pull-left{
   margin-right: 20px;
 }
@@ -1030,11 +1031,10 @@ a.accordion-toggle  i{
 
 /*************************
 ********* About Us Page CSS ******
-**************************/
+**************************/ 
 
 #about-us {
   margin-top: 110px;
-  margin-bottom: -110px;
 }
 
 #about-us h2, 
