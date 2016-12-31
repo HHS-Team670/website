@@ -1389,7 +1389,7 @@ ul.social_icons li  a i{
   margin-left: -32px;
 }
 
-.team .single-profile-top:before, 
+/*.team .single-profile-top:before, 
 .team .single-profile-top:after {
   content: "";
   position: absolute;
@@ -1440,8 +1440,7 @@ ul.social_icons li  a i{
   border-width: 11px;
   border-color: transparent transparent #DDD transparent;
   z-index: 0;
-}
-
+}*/
 /***********************
 ****Service page css****
 ***********************/
