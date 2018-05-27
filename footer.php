@@ -39,7 +39,7 @@ echo "                <div class=\"col-md-3 col-sm-6\">\n";
 echo "                    <div class=\"widget\">\n"; 
 echo "                        <h3>Media</h3>\n"; 
 echo "                        <ul>\n"; 
-echo "                            <li><a href=\"pastcompetitions.html\">Videos</a></li>\n"; 
+echo "                            <li><a href=\"pastcompetition.html\">Videos</a></li>\n"; 
 echo "                            <li><a href=\"photos.html\">Photos</a></li>\n"; 
 echo "                        </ul>\n"; 
 echo "                    </div>    \n"; 
