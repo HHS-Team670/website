@@ -10,6 +10,7 @@ echo "                            <li><a href=\"history.html\">History</a></li>\
 echo "                            <li><a href=\"meet-us-leadership.html\">Leadership team</a></li>\n"; 
 echo "                            <li><a href=\"meet-us-mentors.html\">Mentors</a></li>\n"; 
 echo "                            <li><a href=\"about-us.html#mission\">Team Mission</a></li>\n"; 
+echo "                            <li><a href=\"outreach.html\">Outreach</a></li>\n";
 echo "                        </ul>\n"; 
 echo "                    </div>    \n"; 
 echo "                </div><!--/.col-md-3-->\n"; 
