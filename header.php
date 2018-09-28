@@ -30,6 +30,7 @@
                                 <li><a href="meet-us-mentors.html">The Mentors</a></li>
                             </ul>
                         </li>
+                        <li><a href="outreach.html">Outreach</a></li>
                         <li><a href="sponsor.html">Sponsors</a></li>
                         <li><a href="resources.html">Resources</a></li> 
                         <li class="dropdown">
