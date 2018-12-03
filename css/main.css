@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
-
 /*************************
 *******Typography******
 **************************/
@@ -117,6 +116,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
+
 .media>.pull-left{
   margin-right: 20px;
 }
@@ -202,6 +202,16 @@ body > section {
 
 .top-number{
   color: #fff;
+}
+
+header ul.nav {
+    width:100%;
+    margin:0 auto;
+    margin-top:15px;
+    font-size: 13px;
+    list-style:none;
+    text-align:center;
+    font-weight:bold;
 }
 
 .top-number p{
@@ -1021,11 +1031,10 @@ a.accordion-toggle  i{
 
 /*************************
 ********* About Us Page CSS ******
-**************************/
+**************************/ 
 
 #about-us {
   margin-top: 110px;
-  margin-bottom: -110px;
 }
 
 #about-us h2, 
@@ -1380,7 +1389,7 @@ ul.social_icons li  a i{
   margin-left: -32px;
 }
 
-.team .single-profile-top:before, 
+/*.team .single-profile-top:before, 
 .team .single-profile-top:after {
   content: "";
   position: absolute;
@@ -1431,8 +1440,7 @@ ul.social_icons li  a i{
   border-width: 11px;
   border-color: transparent transparent #DDD transparent;
   z-index: 0;
-}
-
+}*/
 /***********************
 ****Service page css****
 ***********************/
@@ -2559,6 +2567,12 @@ shortcodes page css
     text-justify: inter-word;
 }
 
+.smallest-text{
+  font-size:7px;
+  text-align: justify;
+    text-justify: inter-word;
+}
+
 .profile-title{
   font-size:15px;
   font-weight:bold;
@@ -2577,8 +2591,10 @@ shortcodes page css
   text-align: center;
 }
 
+.margin-all{
+  margin:5px;
+}
 
-
-
-
-
+.text-align-left{
+  text-align: left;
+}
